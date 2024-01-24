@@ -157,7 +157,7 @@ body {
 .container_cards {
   display: flex;
   gap: 2vw;
-  width: 80vw;
+  width: 85vw;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -166,11 +166,11 @@ body {
   background-color: #664a9f;
   padding: 0.8vw 0.8vw 1.57vw 0.8vw;
   /* max-width: 350px; */
-  width: 23vw;
+  width: 25.4vw;
   /* width: 390px; */
   /* height: 120px; */
   /*180*/
-  height: 10vw;
+  height: 11vw;
   color: white;
 }
 
@@ -183,7 +183,7 @@ body {
 }
 
 .texto_card1 {
-  font-size: 1.5vw;
+  font-size: 1.6vw;
   margin-top: -6.8vw;
   margin-left: 6vw;
   font-family: "Montserrat-black";
@@ -192,7 +192,7 @@ body {
 
 .texto_card2 {
   font-family: "Montserrat-regular";
-  font-size: 1.1vw;
+  font-size: 1.3vw;
   white-space: pre-line;
   margin-top: 3vw;
 }
@@ -202,13 +202,13 @@ body {
   margin-top: -6.8vw;
   margin-left: 6vw;
   white-space: pre-line;
-  font-size: 1.4vw;
+  font-size: 1.6vw;
 }
 
 .texto_card2Insta {
   font-family: "Montserrat-regular";
   white-space: pre-line;
-  font-size: 1.1vw;
+  font-size: 1.3vw;
   margin-top: 3vw;
 }
 
@@ -241,33 +241,33 @@ body {
 .btn {
   background-color: #664a9f;
   color: white;
-  width: 55vw;
-  height: 11vw;
+  width: 45vw;
+  height: 8vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   padding: 0px 0px 0px 6.2%;
-  border-radius: 4vw;
+  border-radius: 3vw;
   margin: 0.396827vw;
 }
 
 .btn_texto1 {
-  font-size: 1.9vw;
+  font-size: 1vw;
   font-family: "Montserrat-regular";
   margin-bottom: -2%;
   margin-left: 1%;
 }
 
 .btn_texto2 {
-  font-size: 4.5vw;
+  font-size: 3.5vw;
   font-family: "Montserrat-bold";
 }
 
 .btn_texto_alt1 {
   line-height: 82%;
   margin-top: 1.5%;
-  font-size: 4.5vw;
+  font-size: 3.5vw;
   font-family: "Montserrat-bold";
   white-space: pre-line;
 }
