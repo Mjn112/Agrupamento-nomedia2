@@ -1,0 +1,273 @@
+/* **************************************************** Geral ******************************************************** */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ****************************************************** fontes ****************************************************** */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+:root {
+  --fonte1: 'Montserrat 900', sans-serif;
+} */
+
+@font-face {
+  font-family: "Montserrat-bold";
+  src: url("Montserrat-Bold.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-black";
+  src: url("Montserrat-Black.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-regular";
+  src: url("Montserrat-Regular.ttf");
+}
+
+/* ****************************************************** Seção 1 ****************************************************** */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fundo {
+  width: 99.3vw;
+  max-width: 100%;
+  height: 44.747vw;
+  /*heigth:1527.35;*/
+  position: relative;
+  overflow: hidden;
+}
+
+.fundo::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  border-radius: 100%;
+  width: 226.4447vw;
+  /*width: 8313.53;*/
+  height: 190.267vw;
+  /*heigth: 7017.79;*/
+  margin-left: -61%;
+  /*2542.08*/
+  transform: rotate(4deg);
+  /* left: -103%; */
+  /* left: -495px; */
+  top: 70%;
+  /* z-index: 1; */
+}
+
+.imgFundo {
+  min-width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.logo {
+  z-index: 2;
+  position: absolute;
+  /* top: 50%; */
+  margin-top: -25%;
+  margin-left: 38%;
+  /* left: 42%; */
+  width: 23.399vw;
+  height: 23.399vw;
+  /*599.69*/
+  background-color: #fff;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.borda {
+  width: 80%;
+  height: 80%;
+  border-radius: 100%;
+  border: solid 1vw #fff;
+  box-shadow: black 0px 3px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.logo_img {
+  min-width: 130%;
+  min-height: 130%;
+  border-radius: 100%;
+  box-shadow: black 0px 8px 20px;
+  left: 50%;
+  top: -500px;
+}
+
+/* ****************************************************** Seção 2 ****************************************************** */
+.secao_header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1%;
+  z-index: 1;
+}
+
+.texto1 {
+  text-align: center;
+  margin: 0.4vw;
+  font-size: 2.3vw;
+  color: #664a9f;
+  font-family: "Montserrat-bold";
+  white-space: pre-line;
+}
+
+.texto2 {
+  text-align: center;
+  font-size: 2.6vw;
+  color: #664a9f;
+  font-family: "Montserrat-regular";
+  white-space: pre-line;
+  line-height: 0.8;
+}
+
+/* ****************************************************** Seção 3 ****************************************************** */
+.secao_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vw;
+  margin: 3.9683vw 0px 1.984125vw 0px;
+}
+
+.texto3 {
+  font-size: 2vw;
+  color: #664a9f;
+  font-family: "Montserrat-regular";
+}
+
+.container_cards {
+  display: flex;
+  gap: 2vw;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #664a9f;
+  padding: 0.8vw 0.8vw 1.57vw 0.8vw;
+  /* max-width: 350px; */
+  width: 23vw;
+  /* width: 390px; */
+  /* height: 120px; */
+  /*180*/
+  height: 10vw;
+  color: white;
+}
+
+.icon_card {
+  width: 8vw;
+  height: 8vw;
+  position: relative;
+  top: -1.5vw;
+  left: -5%;
+}
+
+.texto_card1 {
+  font-size: 1.5vw;
+  margin-top: -6.8vw;
+  margin-left: 6vw;
+  font-family: "Montserrat-black";
+  white-space: pre-line;
+}
+
+.texto_card2 {
+  font-family: "Montserrat-regular";
+  font-size: 1.1vw;
+  white-space: pre-line;
+  margin-top: 3vw;
+}
+
+.texto_card1Insta {
+  font-family: "Montserrat-black";
+  margin-top: -6.8vw;
+  margin-left: 6vw;
+  white-space: pre-line;
+  font-size: 1.4vw;
+}
+
+.texto_card2Insta {
+  font-family: "Montserrat-regular";
+  white-space: pre-line;
+  font-size: 1.1vw;
+  margin-top: 3vw;
+}
+
+/* ****************************************************** Seção 4 ****************************************************** */
+.secao_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4vw;
+  gap: 3vw;
+  margin-bottom: 4vw;
+}
+
+.texto4 {
+  color: #664a9f;
+  font-size: 3.3vw;
+  text-align: center;
+  margin-bottom: 1.5873vw;
+  font-family: "Montserrat-regular";
+  white-space: pre-line;
+}
+
+.container_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vw;
+}
+
+.btn {
+  background-color: #664a9f;
+  color: white;
+  width: 55vw;
+  height: 11vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 0px 0px 6.2%;
+  border-radius: 4vw;
+  margin: 0.396827vw;
+}
+
+.btn_texto1 {
+  font-size: 1.9vw;
+  font-family: "Montserrat-regular";
+  margin-bottom: -2%;
+  margin-left: 1%;
+}
+
+.btn_texto2 {
+  font-size: 4.5vw;
+  font-family: "Montserrat-bold";
+}
+
+.btn_texto_alt1 {
+  line-height: 82%;
+  margin-top: 1.5%;
+  font-size: 4.5vw;
+  font-family: "Montserrat-bold";
+  white-space: pre-line;
+}
